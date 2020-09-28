@@ -43,7 +43,8 @@ RUN /usr/local/bin/osrm-extract --help && \
     /usr/local/bin/osrm-routed --help && \
     /usr/local/bin/osrm-contract --help && \
     /usr/local/bin/osrm-partition --help && \
-    /usr/local/bin/osrm-customize --help
+    /usr/local/bin/osrm-customize --helps
 WORKDIR /opt
 
 EXPOSE 5000
+CMD [\"sh\", \"runserver.sh\"]
