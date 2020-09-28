@@ -48,4 +48,4 @@ WORKDIR /opt
 
 EXPOSE 5000
 
-CMD ["/bin/sh", "runserver.sh"]
+CMD ["osrm-routed", "--algorithm=MLD", "/data/australia-latest.osrm"]
