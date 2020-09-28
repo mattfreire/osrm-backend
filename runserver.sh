@@ -1,2 +1,3 @@
 #!/bin/sh
-echo "Hello There"
+
+osrm-routed --algorithm=MLD /data/australia-latest.osrm 

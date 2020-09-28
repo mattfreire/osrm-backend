@@ -47,4 +47,5 @@ RUN /usr/local/bin/osrm-extract --help && \
 WORKDIR /opt
 
 EXPOSE 5000
+
 CMD [\"sh\", \"runserver.sh\"]
