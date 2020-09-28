@@ -48,4 +48,4 @@ WORKDIR /opt
 
 EXPOSE 5000
 
-CMD [\"sh\", \"runserver.sh\"]
+CMD ["/bin/sh", "runserver.sh"]
